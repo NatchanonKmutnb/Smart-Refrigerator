@@ -12,7 +12,7 @@ const boxes = [
 ];
 
 function RefrigeratorPage() {
-  const { id } = useParams(); // Get the dynamic part of the URL
+  const { id } = useParams();
 
   return (
     <Box
