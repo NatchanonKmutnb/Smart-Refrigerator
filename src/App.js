@@ -8,15 +8,6 @@ import { Route, Routes, Redirect } from "react-router-dom";
 import Main from "./pages/Main";
 import RefrigeratorPage from "./pages/RefrigeratorPage";
 
-const boxes = [
-  { id: "box1", status: "empty" },
-  { id: "box2", status: "empty" },
-  { id: "box3", status: "full" },
-  { id: "box4", status: "empty" },
-  { id: "box5", status: "empty" },
-  { id: "box6", status: "full" },
-];
-
 const App = () => {
   const [collapsed, setCollapsed] = useState(false);
   const [image, setImage] = useState(false);

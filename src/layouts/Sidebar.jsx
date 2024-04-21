@@ -67,7 +67,7 @@ const MySidebar = ({
               Number 1
             </MenuItem>
           </SubMenu>
-          <MenuItem>About</MenuItem>
+          <MenuItem onClick={() => navigator("/")}>About</MenuItem>
         </Menu>
       </SidebarContent>
     </ProSidebar>
